@@ -15,6 +15,6 @@ const extendHex = (shortHex) => {
 	return isCapital : output.toUpperCase() :output;
 };
 
-// Do not change the code below.
-//const shortHex = prompt("Enter Short Hex.");
-//alert(extendHex(shortHex));
+ Do not change the code below.
+const shortHex = prompt("Enter Short Hex.");
+alert(extendHex(shortHex));
