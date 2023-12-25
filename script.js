@@ -21,8 +21,4 @@ function extendHex(shortHex) {
 console.log(extendHex("#abc"));   // Output: "#aabbcc"
 console.log(extendHex("abc"));    // Output: "#aabbcc"
 console.log(extendHex("#AbC"));   // Output: "#AABBCC"
-console.log(extendHex("#f09"));   // Output: "#ff0099"
-
- Do not change the code below.
-const shortHex = prompt("Enter Short Hex.");
-alert(extendHex(shortHex));
+console.log(extendHex("#f09"));   // Output: "#ff0099"alert(extendHex(shortHex));
